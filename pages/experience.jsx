@@ -20,27 +20,27 @@ export default function experience() {
                 <div className='grid grid-cols-1 mt-5'>
                   <Experience
                     enterprise="FTECH"
-                    post="Stagiaire"
+                    post="Consultant"
                     duration="31/07/2023 • Maintenant"
-                    missions="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam est similique alias, debitis hic, quae iusto nam illo tenetur distinctio corporis, cupiditate quia natus tempore deserunt maxime voluptatum eum quod."
+                    missions="Nous intervenons dans les entreprises pour leur apporter un soutien technique dans la configuration de leur système d'information et dans l'utilisation des outils de gestion."
                   />
                   <Experience
                     enterprise="Shopify Dev"
                     post="Freelance"
                     duration="31/09/2023 • 01/10/2023"
-                    missions="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam est similique alias, debitis hic, quae iusto nam illo tenetur distinctio corporis, cupiditate quia natus tempore deserunt maxime voluptatum eum quod."
+                    missions="Mes missions étaient basées sur la reproduction des interfaces existants de Shopify et la création des nouvelles interfaces pour les sites.C'était ma première expérience en freelance."
                   />
                   <Experience
                     enterprise="SMART-SECURES"
                     post="Stagiaire"
                     duration="07/2022 • 09/2022"
-                    missions="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam est similique alias, debitis hic, quae iusto nam illo tenetur distinctio corporis, cupiditate quia natus tempore deserunt maxime voluptatum eum quod."
+                    missions="Durant ce stage, j'avais pour mission de concevoir les interfaces d'une plateforme web de vente immobilière. Tout en participant aux activités de l'entreprise qui travaille dans les secteurs de l'IPTV, de l'installation des traceurs GPS et de la sécurisation des comptes de réseaux sociaux."
                   />
                   <Experience
                     enterprise="Grand Carrefour"
                     post="Stagiaire"
                     duration="07/2019 • 09/2021"
-                    missions="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam est similique alias, debitis hic, quae iusto nam illo tenetur distinctio corporis, cupiditate quia natus tempore deserunt maxime voluptatum eum quod."
+                    missions="La mission principale était la configuration du système d'information à travers l'installation des postes et des logiciels de gestion de l'entreprise."
                   />
                 </div>
             </section>

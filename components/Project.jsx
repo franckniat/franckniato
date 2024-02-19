@@ -4,9 +4,9 @@ import { Button } from "./ui/button";
 export default function ProjectCard(props){
     const {title, img, desc, gitlink, preview, stack} = props
     return(
-        <div className="w-full md:w-fit h-full bg-gray-50 dark:bg-neutral-900">
+        <div className="w-full  h-full bg-gray-50 dark:bg-neutral-900 rounded-b-md md:rounded-md shadow-md">
             <div className="w-full h-full flex flex-col md:flex-row">
-                <Image src={img} alt={title} width={1500} priority height={1500} className="w-full object-cover h-full  md:w-fit md:max-w-[500px]" />
+                <Image src={img} alt={title} width={1500} priority height={1500} className="w-full object-cover h-full rounded-t-md md:rounded-r-none md:rounded-l-md md:w-fit md:max-w-[500px]" />
                 <div className="p-5">
                     <h1 className="font-bold text-xl md:text-2xl">{title}</h1>
                     <p className="text-sm line-clamp-3 md:line-clamp-none md:text-base mt-3">{desc}</p>

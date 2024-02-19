@@ -75,6 +75,9 @@ export default function Contact() {
               <div className='my-3'>
                 <Button 
                 onClick={() => {
+                  if(!success){
+                    return
+                  }
                   toast({
                     title: "Message envoyé !! ",
                     description: success,

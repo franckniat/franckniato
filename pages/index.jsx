@@ -42,7 +42,7 @@ export default function Home(){
               </HoverCard>
               
             </h2>
-            <h2 className='text-base md:text-lg mb-6'>Je suis <span className="text-red-600">étudiant</span> et <span className="text-red-600">développeur web</span>.</h2>
+            <h2 className='text-base md:text-lg mb-6'>Je suis <span className="text-red-600">étudiant</span> et <span className="text-red-600">développeur</span>.</h2>
             <section className='flex items-center gap-8'>
               <a href="https://github.com/franckniat" target='_blank' className='hover:text-gray-600'>
                 <Github className='w-5 h-5 md:w-7 md:h-7'/>
