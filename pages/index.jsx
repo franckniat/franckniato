@@ -140,6 +140,16 @@ export default function Home(){
               </li>
               <li className="w-10 h-10 flex items-center">
                 <Image 
+                title="TypeScript"
+                alt="TypeScript"
+                src="/stack/TYPESCRIPT.svg"
+                width={500}
+                height={500}
+                className="rounded"
+                />
+              </li>
+              <li className="w-10 h-10 flex items-center">
+                <Image 
                 alt="PHP"
                 title="Php"
                 src="/stack/PHP.png"
