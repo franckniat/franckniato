@@ -27,8 +27,10 @@ export default function Navigation() {
         <nav className='fixed top-0 backdrop-blur-lg border-b border-gray-200 dark:border-neutral-700  bg-white z-20 dark:bg-neutral-900 bg-opacity-70 dark:bg-opacity-70 w-full'>
             <div className='max-w-[1400px] mx-auto px-2 sm:px-5 w-full'>
                 <div className='flex items-center h-[65px] justify-between'>
-                    <Link href="/" className={` font-bold font-mono text-lg flex items-center gap-1`}>
-                        <span><CodeSlash/></span>
+                    <Link href="/" className={` font-bold text-lg flex items-center gap-1`}>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-terminal"><polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/></svg>
+                        </span>
                         <span id='logo'>franckniat</span>
                     </Link>
                     <section className="hidden md:block">

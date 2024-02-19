@@ -27,7 +27,7 @@ export default function Contact() {
     <section className='contact-page'>
       <Toaster/>
       <Navigation/>
-      <section className='max-w-[1200px] mx-auto pt-24 md:pt-30 md:pb-0 lg:pt-36 pb-5'>
+      <section className='max-w-[800px] mx-auto pt-24 md:pt-30 md:pb-0 lg:pt-36 pb-5'>
         <section className='mx-3 md:mx-5 pb-10'>
           <Breadcrumb
           CurrentPage="Contact"
