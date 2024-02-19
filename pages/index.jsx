@@ -15,7 +15,16 @@ export default function Home(){
       <Toaster/>
       <Navigation />
       <section className="max-w-[1400px] mx-auto">
-        <section className='hero pt-24 md:pt-30 pb-10 md:pb-0 lg:pt-36 mx-5 flex justify-start md:justify-around items-center border-b border-gray-500'>
+        <section 
+        className='hero pt-24 md:pt-30 pb-10 md:pb-0 lg:pt-36 mx-5 flex justify-start md:justify-around items-center border-b border-gray-500'
+        style={{
+          backgroundImage: `url('/bg__hero.png')`,
+          backgroundPosition: 'left',
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed'
+        }}
+        >
           <section className='text-black dark:text-white pt-8 md:pt-0'>
             <h1 className='text-2xl md:text-3xl xl:text-4xl font-extrabold tracking-wide mb-5 md:mb-7'>Salut ! Ravi de te voir.</h1>
             <h2 className='text-lg md:text-xl mb-5 md:mb-6 font-bold'>Je m{"'"}appelle Franck NIAT mais tu peux m{"'"}appeler 
@@ -24,8 +33,8 @@ export default function Home(){
                   <span 
                   onClick={() => {
                     toast({
-                      title: "Build with ❤️ by me",
-                      description: "C'est pas encore fini mais je suis ouvert aux remarques, hésites pas à me laisser un message dans la section contact😉.",
+                      title: "Build with ❤️ by franckniat",
+                      description: "Salut ! N'hésites pas à me laisser un message dans la section contact😉.",
                       action: (
                         <ToastAction altText="Goto schedule to undo">Fermer</ToastAction>
                       ),
