@@ -104,7 +104,7 @@ export default function Home(){
                 de contribuer à la création de ces sites et de rendre l{"'"}expérience 
                 utilisateur aussi agréable que possible.
               </h3>
-              <a target="_blank" href="https://drive.google.com/file/d/1bd9FSlBo-Qom3mPX0iZIg4LWxK9kF7LT/view?usp=drive_link" className='flex items-center gap-3 border-b border-gray-800 hover:border-red-600 hover:text-red-600 transition w-fit'><span>Mon Curriculum vitae</span><ArrowUpRight/></a>
+              <a target="_blank" href="https://drive.google.com/file/d/1bd9FSlBo-Qom3mPX0iZIg4LWxK9kF7LT/view?usp=sharing" className='flex items-center gap-3 border-b border-gray-800 hover:border-red-600 hover:text-red-600 transition w-fit'><span>Mon Curriculum vitae</span><ArrowUpRight/></a>
             </section>
           </section>
 
