@@ -85,7 +85,7 @@ export default function Home(){
           <section className='pb-10 border-b border-gray-500 border-dashed'>
             <h2 className='text-lg md:text-xl flex items-center gap-4 my-5 font-bold'><span>Aspect professionnel </span><CircleFill className='w-4 h-4 text-red-600 hover:text-red-400'/></h2>
             <h3 className='text-justify'>
-                Je suis actuellement stagiaire chez FTEC un cabinet de la ville de
+                Je suis actuellement consultant chez FTEC un cabinet de la ville de
                  Douala qui offre des services de conseil, d{"'"}audit en informatique, 
                  et de mise sur pied de solutions logicielles. Mais je reste cependant ouvert
                   à toutes opportunités de stage ou d{"'"}emploi dans le domaine informatique.
